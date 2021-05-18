@@ -1,0 +1,9 @@
+.CODE
+	Shield_Decrypt proc
+
+	mov rax, r9
+	call r8
+	ret
+
+	Shield_Decrypt endp
+END
